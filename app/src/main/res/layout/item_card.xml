@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_item"
+    card_view:cardBackgroundColor="#FFF5F5F5"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="4dp"
+    tools:showIn="@layout/item_layout_for_vertical_list"
+    tools:visibility="invisible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/item_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            tools:srcCompat="@drawable/ic_test_image" />
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:textColor="#FF000000"
+            tools:text="Item ID: 12" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/drag_from_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Drag from start"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:thumb="@drawable/switch_custom_selector"
+                app:showText="false"
+                app:track="@drawable/switch_custom_track" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/drag_from_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Drag from end"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:thumb="@drawable/switch_custom_selector"
+                app:showText="false"
+                app:track="@drawable/switch_custom_track" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/swipe_from_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Swipe from start"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:thumb="@drawable/switch_custom_selector"
+                app:showText="false"
+                app:track="@drawable/switch_custom_track" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/swipe_from_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Swipe from end"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:thumb="@drawable/switch_custom_selector"
+                app:showText="false"
+                app:track="@drawable/switch_custom_track" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/item_pull"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:gravity="center_vertical"
+                android:text="Pull"
+                android:textAppearance="?android:attr/textAppearanceSmallInverse"
+                android:thumb="@drawable/switch_custom_selector"
+                app:showText="false"
+                app:track="@drawable/switch_custom_track" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

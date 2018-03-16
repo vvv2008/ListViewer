@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_control"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="4dp"
+    android:visibility="invisible"
+    tools:visibility="visible">
+
+    <ImageButton
+        android:id="@+id/ib_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:background="@drawable/button_selector"
+        android:src="@android:drawable/btn_star_big_on" />
+
+    <ImageButton
+        android:id="@+id/ib_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:background="@drawable/button_selector"
+        android:src="@android:drawable/ic_menu_share" />
+</LinearLayout>
