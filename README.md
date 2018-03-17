@@ -9,5 +9,4 @@ To manage items in the list of Recycler View. Based on the use of ItemTouchHelpe
 
 Video on YouTube
 
-[![Small video](https://i.ytimg.com/vi/0LQFYvCCYM8/2.jpg?time=1521260311744)]
-(https://www.youtube.com/watch?v=0LQFYvCCYM8 "Video")
+[![Small video](https://i.ytimg.com/vi/0LQFYvCCYM8/2.jpg?time=1521260311744)](https://www.youtube.com/watch?v=0LQFYvCCYM8 "Video")
